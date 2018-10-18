@@ -3,13 +3,191 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>428</string>
+	<string>444.38</string>
 	<key>AMApplicationVersion</key>
-	<string>2.7</string>
+	<string>2.9</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
 	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.url</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict/>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.url</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Duplicate Finder Items.action</string>
+				<key>ActionName</key>
+				<string>Duplicate Finder Items</string>
+				<key>ActionParameters</key>
+				<dict/>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.DuplicateFinderItems</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMDuplicateFinderItemsAction</string>
+				<key>InputUUID</key>
+				<string>EE0C37E2-8372-4F01-90EA-939107EFB9B5</string>
+				<key>Keywords</key>
+				<array>
+					<string>Duplicate</string>
+					<string>File</string>
+					<string>Copy</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>972B3C06-EB8A-423C-866E-EFA108B993DF</string>
+				<key>UUID</key>
+				<string>78F56EB7-4A88-4BD1-ACDD-8ACCAF11D880</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict/>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>public.image</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Preview</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>imageType</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>public.image</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Change Type of Images.action</string>
+				<key>ActionName</key>
+				<string>Change Type of Images</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>imageType</key>
+					<string>PNG</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.ChangeImageType</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryPhotos</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMChangeImageTypeAction</string>
+				<key>InputUUID</key>
+				<string>5B63079F-FA2C-4FE7-A196-DD8D3B036BDC</string>
+				<key>Keywords</key>
+				<array>
+					<string>Image</string>
+					<string>Photo</string>
+					<string>Change</string>
+					<string>Convert</string>
+					<string>Set</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>0F338EAE-A35B-462B-B98C-D2E0DB76882E</string>
+				<key>UUID</key>
+				<string>FA225B9E-6735-4AEA-B7AF-40400D37CB39</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Preview</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>TIFF</string>
+						<key>name</key>
+						<string>imageType</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>514.500000:291.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Change Type of Images.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
 		<dict>
 			<key>action</key>
 			<dict>
@@ -51,21 +229,8 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>function run(input, parameters) {	var app = Application.currentApplication();	app.includeStandardAdditions = true;	ObjC.import('AppKit');		input.forEach(function(item) {		var path = item.toString();
-		var image = $.NSImage.alloc.initWithContentsOfFile(path);
-		var bitmap = $.NSBitmapImageRep.alloc.initWithBitmapDataPlanesPixelsWidePixelsHighBitsPerSampleSamplesPerPixelHasAlphaIsPlanarColorSpaceNameBytesPerRowBitsPerPixel(undefined, image.size.width, image.size.height, 8, 4, true, false, $.NSDeviceRGBColorSpace, 0, 0);
-		var context = $.NSGraphicsContext.graphicsContextWithBitmapImageRep(bitmap);
-		$.NSGraphicsContext.saveGraphicsState;
-		$.NSGraphicsContext.setCurrentContext(context);
-		image.drawInRect($.NSMakeRect(0, 0, image.size.width, image.size.height));
-		$.NSGraphicsContext.restoreGraphicsState;
-		var color = bitmap.colorAtXY(0, 0);
-		color = color.colorWithAlphaComponent(Math.min(color.alphaComponent, 254/255));
-		bitmap.setColorAtXY(color, 0, 0);
-		var data = bitmap.representationUsingTypeProperties($.NSPNGFileType, $.NSDictionary.dictionary);
-		path = $.NSString.alloc.initWithUTF8String(path)
-			.stringByDeletingPathExtension.stringByAppendingString(' copy').stringByAppendingPathExtension('png').js;
-		data.writeToFileAtomically(path, true);	});	return input;}</string>
+					<string>function run(input, parameters) {	var app = Application.currentApplication();	app.includeStandardAdditions = true;	ObjC.import('AppKit');		input.forEach(function(item) {		var path = item.toString();		var image = $.NSImage.alloc.initWithContentsOfFile(path);		var bitmap = $.NSBitmapImageRep.alloc.initWithData(image.TIFFRepresentation);
+		bitmap.setAlpha(true);		var color = bitmap.colorAtXY(0, 0);		color = color.colorWithAlphaComponent(Math.min(color.alphaComponent, 254/255));		bitmap.setColorAtXY(color, 0, 0);		var data = bitmap.representationUsingTypeProperties($.NSPNGFileType, $.NSDictionary.dictionary);		data.writeToFileAtomically(path, true);	});	return input;}</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunJavaScript</string>
@@ -120,7 +285,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>529.000000:316.000000</string>
+				<string>514.500000:684.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run JavaScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -129,9 +294,45 @@
 		</dict>
 	</array>
 	<key>connectors</key>
-	<dict/>
+	<dict>
+		<key>1AD48F18-22E8-4A36-98FD-D6635CFF6A2D</key>
+		<dict>
+			<key>from</key>
+			<string>FA225B9E-6735-4AEA-B7AF-40400D37CB39 - FA225B9E-6735-4AEA-B7AF-40400D37CB39</string>
+			<key>to</key>
+			<string>D0B336B8-9BFE-49C1-A804-3A4AD461C52A - D0B336B8-9BFE-49C1-A804-3A4AD461C52A</string>
+		</dict>
+		<key>48BBEC12-0C96-42B2-9FA4-7343FF71F46D</key>
+		<dict>
+			<key>from</key>
+			<string>78F56EB7-4A88-4BD1-ACDD-8ACCAF11D880 - 78F56EB7-4A88-4BD1-ACDD-8ACCAF11D880</string>
+			<key>to</key>
+			<string>FA225B9E-6735-4AEA-B7AF-40400D37CB39 - FA225B9E-6735-4AEA-B7AF-40400D37CB39</string>
+		</dict>
+	</dict>
 	<key>workflowMetaData</key>
 	<dict>
+		<key>applicationBundleID</key>
+		<string>com.apple.finder</string>
+		<key>applicationBundleIDsByPath</key>
+		<dict>
+			<key>/System/Library/CoreServices/Finder.app</key>
+			<string>com.apple.finder</string>
+		</dict>
+		<key>applicationPath</key>
+		<string>/System/Library/CoreServices/Finder.app</string>
+		<key>applicationPaths</key>
+		<array>
+			<string>/System/Library/CoreServices/Finder.app</string>
+		</array>
+		<key>inputTypeIdentifier</key>
+		<string>com.apple.Automator.fileSystemObject.image</string>
+		<key>outputTypeIdentifier</key>
+		<string>com.apple.Automator.nothing</string>
+		<key>presentationMode</key>
+		<integer>15</integer>
+		<key>processesInput</key>
+		<integer>0</integer>
 		<key>serviceApplicationBundleID</key>
 		<string>com.apple.finder</string>
 		<key>serviceApplicationPath</key>
@@ -141,6 +342,10 @@
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
+		<integer>0</integer>
+		<key>systemImageName</key>
+		<string>NSActionTemplate</string>
+		<key>useAutomaticInputType</key>
 		<integer>0</integer>
 		<key>workflowTypeIdentifier</key>
 		<string>com.apple.Automator.servicesMenu</string>
